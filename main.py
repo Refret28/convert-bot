@@ -4,7 +4,7 @@ from handler import register_handlers
 import configparser
 
 config = configparser.ConfigParser()
-config.read('config1.ini')
+config.read('config.ini')
 TOKEN = config['DEFAULT']['TOKEN']
 
 bot = telebot.TeleBot(TOKEN)
